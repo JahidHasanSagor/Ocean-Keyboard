@@ -13,7 +13,7 @@ class OpenAITranslationService {
 
     private val TAG = "Hello Sagor OpenAITranslationService"
     private val client = OkHttpClient()
-    private val apiKey = "sk-proj-bPP3trwTOqYf7cS8WuuCT3BlbkFJq9SiAtfyKtGh4YvBnxYP"  // Replace with your actual OpenAI API key
+    private val apiKey = ""  // Replace with your actual OpenAI API key
 
     fun translate(text: String, sourceLang: String, targetLang: String, callback: TranslationCallback) {
         val url = "https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct/completions"
